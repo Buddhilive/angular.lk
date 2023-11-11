@@ -5,10 +5,14 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Angular Sri Lanka',
+			title: 'Angular ශ්‍රී ලංකා',
 			social: {
 				github: 'https://github.com/buddhilive/angular.lk',
 			},
+			logo: {
+				src: './src/assets/angular_gradient.png',
+			},
+			favicon: '/favicon.ico',
 			sidebar: [
 				{
 					label: 'Guides',
