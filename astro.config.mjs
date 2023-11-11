@@ -5,9 +5,9 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Angular Sri Lanka',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/buddhilive/angular.lk',
 			},
 			sidebar: [
 				{
