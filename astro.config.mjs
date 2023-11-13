@@ -19,6 +19,16 @@ export default defineConfig({
 					autogenerate: { directory: 'guides' },
 				},
 			],
+			head: [
+				// Example: add Fathom analytics script tag.
+				{
+					tag: 'meta',
+					attrs: {
+						name: 'monetag',
+						content: '663e1176f6c8b3cc4a3de28af9c6e485'
+					},
+				},
+			],
 		}),
 	],
 	outDir: './docs'
