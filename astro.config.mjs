@@ -15,15 +15,18 @@ export default defineConfig({
 			favicon: '/favicon.ico',
 			sidebar: [
 				{
-					label: 'Guides',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
-					],
+					label: 'මගපෙන්වීම',
+					autogenerate: { directory: 'guides' },
 				},
+			],
+			head: [
+				// Example: add Fathom analytics script tag.
 				{
-					label: 'Reference',
-					autogenerate: { directory: 'reference' },
+					tag: 'meta',
+					attrs: {
+						name: 'monetag',
+						content: '663e1176f6c8b3cc4a3de28af9c6e485'
+					},
 				},
 			],
 		}),
