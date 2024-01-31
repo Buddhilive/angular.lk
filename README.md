@@ -1,2 +1,2 @@
 # Angular.lk
-Angular Docs
+Angular Docs in Sinhala
