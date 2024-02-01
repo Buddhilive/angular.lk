@@ -1,2 +1,2 @@
 # Angular.lk
-Angular Docs in Sinhala
+Angular සිංහලෙන් ඉගෙනගන්න
