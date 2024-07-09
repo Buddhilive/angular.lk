@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 export default defineConfig({
 	integrations: [
 		starlight({
-			title: 'Angular ශ්‍රී ලංකා',
+			title: 'Angular Learning Kit',
 			social: {
 				github: 'https://github.com/buddhilive/angular.lk',
 			},
@@ -15,7 +15,7 @@ export default defineConfig({
 			favicon: '/favicon.ico',
 			sidebar: [
 				{
-					label: 'මගපෙන්වීම',
+					label: 'Guides',
 					autogenerate: { directory: 'guides' },
 				},
 			],
