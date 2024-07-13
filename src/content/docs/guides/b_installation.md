@@ -3,9 +3,9 @@ title: Setup and Installation
 description: Guide for setting up your Angular development environment
 ---
 
-## Setting Up the Development Environment
+This setup process lays the foundation for your Angular development journey. As you become more comfortable with these basics, you'll be ready to dive deeper into Angular's features and start building more complex applications.
 
-### 1. Installing Node.js and npm
+## 1. Installing Node.js and npm
 
 Node.js is a JavaScript runtime that allows you to run JavaScript on your computer outside of a web browser. npm (Node Package Manager) comes bundled with Node.js and is used to manage packages and dependencies for your projects.
 
@@ -23,7 +23,7 @@ Steps to install Node.js and npm:
 
 These commands should display the installed versions of Node.js and npm.
 
-### 2. Installing Angular CLI
+## 2. Installing Angular CLI
 
 Angular CLI (Command Line Interface) is a powerful tool that helps you create, develop, test, and manage your Angular projects.
 
@@ -44,7 +44,7 @@ The `-g` flag installs Angular CLI globally on your system.
    ```
    This should display the version of Angular CLI installed.
 
-### 3. Creating your first Angular project
+## 3. Creating your first Angular project
 
 Now that you have Node.js, npm, and Angular CLI installed, you're ready to create your first Angular project.
 
@@ -81,7 +81,7 @@ Replace `my-first-angular-app` with your desired project name.
 
 Congratulations! You've just created and run your first Angular application.
 
-### Additional tips:
+## Additional tips:
 
 1. Project structure: Take some time to explore the project structure created by Angular CLI. Key directories include:
    - `src/app`: Contains your application code
@@ -95,5 +95,3 @@ Congratulations! You've just created and run your first Angular application.
 4. IDE setup: Consider using an IDE with good Angular support, such as Visual Studio Code with the Angular Language Service extension.
 
 5. Learning resources: Refer to the official Angular documentation (https://angular.io/docs) for in-depth guides and API references.
-
-This setup process lays the foundation for your Angular development journey. As you become more comfortable with these basics, you'll be ready to dive deeper into Angular's features and start building more complex applications.

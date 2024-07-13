@@ -3,8 +3,6 @@ title: Introduction to Angular
 description: Introduction to Angular Framework
 ---
 
-## What is Angular?
-
 Angular is a popular open-source web application framework developed and maintained by Google. It's used for building dynamic, single-page applications (SPAs) and complex web applications. Angular uses TypeScript, a superset of JavaScript, which adds optional static typing to the language.
 Key features of Angular:
 
