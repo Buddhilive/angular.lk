@@ -1,8 +1,10 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://www.angular.lk',
 	integrations: [
 		starlight({
 			title: 'Angular Learning Kit',
@@ -20,7 +22,13 @@ export default defineConfig({
 				},
 			],
 			head: [
-				// Example: add Fathom analytics script tag.
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'sitemap',
+						href: '/sitemap-index.xml'
+					},
+				},
 				{
 					tag: 'meta',
 					attrs: {
@@ -30,6 +38,7 @@ export default defineConfig({
 				},
 			],
 		}),
+		sitemap()
 	],
 	outDir: './docs'
 });
