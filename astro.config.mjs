@@ -1,11 +1,13 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://www.angular.lk',
 	integrations: [
 		starlight({
-			title: 'Angular ශ්‍රී ලංකා',
+			title: 'Angular Learning Kit',
 			social: {
 				github: 'https://github.com/buddhilive/angular.lk',
 			},
@@ -15,12 +17,18 @@ export default defineConfig({
 			favicon: '/favicon.ico',
 			sidebar: [
 				{
-					label: 'මගපෙන්වීම',
+					label: 'Guides',
 					autogenerate: { directory: 'guides' },
 				},
 			],
 			head: [
-				// Example: add Fathom analytics script tag.
+				{
+					tag: 'link',
+					attrs: {
+						rel: 'sitemap',
+						href: '/sitemap-index.xml'
+					},
+				},
 				{
 					tag: 'meta',
 					attrs: {
@@ -30,6 +38,7 @@ export default defineConfig({
 				},
 			],
 		}),
+		sitemap()
 	],
 	outDir: './docs'
 });
