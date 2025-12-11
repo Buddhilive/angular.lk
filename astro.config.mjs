@@ -7,9 +7,9 @@ export default defineConfig({
 	site: 'https://www.angular.lk',
 	integrations: [
 		starlight({
-			title: 'Angular Learning Kit',
+			title: 'Angular Language Kit',
 			social: {
-				github: 'https://github.com/buddhilive/angular.lk',
+				github: 'https://github.com/buddhilive/angular-lk',
 			},
 			logo: {
 				src: './src/assets/angular_gradient.png',
