@@ -40,5 +40,5 @@ export default defineConfig({
 		}),
 		sitemap()
 	],
-	outDir: './docs'
+	outDir: './dist'
 });
